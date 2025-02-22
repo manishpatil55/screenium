@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="animationnav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body class="g-container">
+
+    <div id="animationPart" class="animationPart">
+        <div class="bg-container" id="hide">
+            <img class="animated-image w-50" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/57dce043604507.57f570bb1809c.png" />
+            <div class="spinner-border spin " style="color:white;" id="spin" role="status">
+                <span class="visually-hidden"></span>
+            </div>
+            <div class="d-flex ">
+                <h1 class="mark">S</h1>
+                <h1 class="mark">C</h1>
+                <h1 class="mark">R</h1>
+                <h1 class="mark">E</h1>
+                <h1 class="mark">E</h1>
+                <h1 class="mark">N</h1>
+                <h1 class="mark">I</h1>
+                <h1 class="mark">U</h1>
+                <h1 class="mark">M</h1>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <div id='homePage'>
+        <nav class="  text-white fixed-top  mb-2">
+            <div class="  d-flex flex-row justify-content-between">
+                <div class="d-flex p-2">
+
+
+                </div>
+
+                <div class="d-flex p-2">
+                    <a class="a1 ml-5 underline-effect" href="#homePage">Home</a>
+                    <li class="a1 ml-5 underline-effect">Movies</li>
+                    <li class="a1 ml-5 underline-effect">TV shows</li>
+                    <li class="a1 ml-5 underline-effect"> Live TV</li>
+                </div>
+                <div class="d-flex p-2">
+
+
+                    <li class="a1 mr-4 "><svg xmlns="http://www.w3.org/2000/svg" id="openSearchBar" style="cursor:pointer;" width="26" height="26" fill="currentColor" class="bi bi-search ml-3 search-icon" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></li>
+
+                    <li class="a1 mr-4 "><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" id="variety" fill="currentColor" class="bi bi-menu-button-wide-fill var" viewBox="0 0 16 16">
+                            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1m9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5" />
+                        </svg></li>
+
+
+                    <li class="a1 mr-4"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" id="signup" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                        </svg></li>
+
+                    <button class="btn btn-primary">Join</button>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="   d-flex flex-row justify-content-end mt-5">
+            <div class="d-flex varity mt-2 flex-row justify-content-between " id="v">
+                <div class="column1 mr-3">
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+
+                </div>
+                <div class="column2 mr-3">
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+
+                </div>
+                <div class="column3">
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="   d-flex flex-row justify-content-end mt-5">
+            <div class="d-flex varityy  flex-row justify-content-between " id="v33">
+                <div class="column1 mr-3">
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+
+                </div>
+                <div class="column2 mr-3">
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+
+                </div>
+                <div class="column3">
+
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+                    <p style="padding:5px;cursor:pointer;" class="gener-para">Action</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="  mt-5  d-flex flex-row justify-content-center sticky-searchbar">
+            <div class="varityy1 " id="openedSearch">
+                <div class="col-12 ">
+                    <div class='search-div'>
+                        <input type="text" id="movieName" class="search bg-dark" placeholder="Search any Movie of your own choice..." />
+                        <svg xmlns="http://www.w3.org/2000/svg" id="searchMovies" style="cursor:pointer;" width="26" height="26" fill="currentColor" class="bi bi-search ml-3 search-icon" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="movie-poster-bg-image " id="moviePosterImage">
+            <div class="movie-bg-content text-white " id="movie-info">
+                <div class="d-flex flex-column justify-content-end">
+                    <div class="movie-min ">
+                        <div class="d-flex flex-row justify-content-between">
+                            <h1 class="mb-5" id="moviebgheading" style="font-size:40px;font-family:fantasy;letter-spacing: 4px;">THE AVENGERS</h1>
+                            <a href="" target="_blank" id="watchMovie">Watch Now</a>
+                        </div>
+                        <p class="mb-5" id="moviebgplot" style="font-size:24px;letter-spacing: 1px;">Marvel makes cinematic history as the Super Hero team of a lifetime assemble <br />for the first time ever in this action-packed blockbuster! Packed with <br />spectacular visual effects, Marvel's The Avengers will blow your mind!</p>
+                        <div class="d-flex">
+                            <h3 class="mr-5" id="moviebgimdb" style="font-size:25px;letter-spacing: 1px;color:#e1e3e3;">iMDB 8.24</h3>
+                            <h3 class="mr-5" id="moviebgduration" style="font-size:25px;letter-spacing: 1px;color:#e1e3e3;">2 h 24 min</h3>
+                            <h3 class="mr-5" id="moviebgyear" style="font-size:25px;letter-spacing: 1px;color:#e1e3e3;">2012</h3>
+                            <h3 class="mr-5" id="moviebguhd" style="font-size:25px;letter-spacing: 1px;color:#e1e3e3;">UHD</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <video autoplay muted loop class="video" id="video">
+                <source id="videoSource" src="https://s3-dub-2.cf.trailer.row.aiv-cdn.net/bfc0/9560/886e/4ff7-a0a6-5f5004a07170/f1e3f891-8be5-42f7-aee3-94a912c4c841_video_900_audio_aaclc_128.mp4?Expires=1737962604&amp;Signature=ggMWfOpMTreI24njpa~B4ciFGP5Mrm4Z4rlKsXGQY4ndhaNIFSvHRfZc~UyBLQtlscVSJ7zWF1GkV80dxzGhKZJM5XFkG77RN7MUrvm-3Le82RiGxzO1kLGMC~qe9nQWGDkNWu0nPXIu9cNeBRRaus2XKjSDb~BgolXjQoNY3Vux6WYxxGGceR55Nw318fCyC0d-FOoEmXhQfHkYI5v8VjXZBbz08CW~UcJXcuh9NgnIrcx1hBq99pNwS47JLfeaafXdIz-9GYPrEPYClC~veFM6ON6S4-8aCPDZkmY559UBpxb-iWrilPG8o0WcznYCFKdufUDzQqAsVYtkWny1aQ__&amp;Key-Pair-Id=APKAJIYEUF5P2E3CCYTA" type="video/mp4">
+                <!-- Fallback message for unsupported browsers -->
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
+
+        <div class="body">
+            <div class="cardxx block m-5">
+                <div class="cardx1" id="appendSearchedCard">
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="wuc  mb-3 ">
+                <div class="container ">
+                    <div class="wrapper mb-3  pb-3 pl-3 pr-3 swipper">
+                        <h1 class="text-white menu-section-heading mr-5 mt-5 pp iDetRV" style="color:black;font-size:40px;font-weight:500">
+                            What's on your mind?
+                        </h1>
+                        <div class="swiper-button-prev prev "></div>
+                        <div class=" slide-content p-3 ">
+                            <div class="carousel swiper-container ">
+                                <div class="swiper-wrapper ">
+                                    <div class="cd m-4 swiper-slide">
+                                        <div style="overflow:hidden;">
+                                            <img class="food1 imgge2" src="https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1200.jpg" />
+                                        </div>
+                                        <div class="overlay2 d-flex flex-column justify-content-end">
+                                            <div class="d-flex flex-row justify-content-between">
+                                                <div>
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">Watch Now <i class="fas fa-caret-right  zz "></i></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2022 </h5>
+                                                </div>
+                                                <div class="pr-3">
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">iMDB <span>4.0</span></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2hr 28min</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cd m-4 swiper-slide">
+                                        <div style="overflow:hidden;">
+                                            <img class="food1 imgge2 " src="https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1200.jpg" />
+                                        </div>
+                                        <div class="overlay2 d-flex flex-column justify-content-end">
+                                            <div class="d-flex flex-row justify-content-between">
+                                                <div>
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">Watch Now <i class="fas fa-caret-right  zz "></i></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2022 </h5>
+                                                </div>
+                                                <div class="pr-3">
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">iMDB <span>4.0</span></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2hr 28min</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cd m-4 swiper-slide">
+                                        <div style="overflow:hidden;">
+                                            <img class="food1 imgge2" src="https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1200.jpg" />
+                                        </div>
+                                        <div class="overlay2 d-flex flex-column justify-content-end">
+                                            <div class="d-flex flex-row justify-content-between">
+                                                <div>
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">Watch Now <i class="fas fa-caret-right  zz "></i></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2022 </h5>
+                                                </div>
+                                                <div class="pr-3">
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">iMDB <span>4.0</span></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2hr 28min</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cd m-4 swiper-slide">
+                                        <div style="overflow:hidden;">
+                                            <img class="food1 imgge2" src="https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1200.jpg" />
+                                        </div>
+                                        <div class="overlay2 d-flex flex-column justify-content-end">
+                                            <div class="d-flex flex-row justify-content-between">
+                                                <div>
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">Watch Now <i class="fas fa-caret-right  zz "></i></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2022 </h5>
+                                                </div>
+                                                <div class="pr-3">
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">iMDB <span>4.0</span></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2hr 28min</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cd m-4 swiper-slide">
+                                        <div style="overflow:hidden;">
+                                            <img class="food1 imgge2" src="https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1200.jpg" />
+                                        </div>
+                                        <div class="overlay2 d-flex flex-column justify-content-end">
+                                            <div class="d-flex flex-row justify-content-between">
+                                                <div>
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">Watch Now <i class="fas fa-caret-right  zz "></i></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2022 </h5>
+                                                </div>
+                                                <div class="pr-3">
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">iMDB <span>4.0</span></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2hr 28min</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cd m-4 swiper-slide">
+                                        <div style="overflow:hidden;">
+                                            <img class="food1 imgge2" src="https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1200.jpg" />
+                                        </div>
+                                        <div class="overlay2 d-flex flex-column justify-content-end">
+                                            <div class="d-flex flex-row justify-content-between">
+                                                <div>
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">Watch Now <i class="fas fa-caret-right  zz "></i></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2022 </h5>
+                                                </div>
+                                                <div class="pr-3">
+                                                    <h4 class="spots" style="color:white;cursor:pointer; ">iMDB <span>4.0</span></h4>
+                                                    <h5 class="places " style="color:white;cursor:pointer;">2hr 28min</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination "></div>
+                        <div class="swiper-button-next prev"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <h1 class="text-white menu-section-heading ml-5 mt-5 pp iDetRV" style="color:black;font-size:40px;font-weight:500">
+                Popular action thrillers
+            </h1>
+            <div class="cardxx block m-5">
+                <div class="cardx1" id="Action">
+
+                </div>
+            </div>
+            <h1 class="text-white menu-section-heading ml-5 mt-5 pp iDetRV" style="color:black;font-size:40px;font-weight:500">
+                Popular Horror Movies
+            </h1>
+            <div class="cardxx  block1 m-5">
+                <div class="cardx1" id="Horror">
+
+
+                </div>
+            </div>
+            <h1 class="text-white menu-section-heading ml-5 mt-5 pp iDetRV" style="color:black;font-size:40px;font-weight:500">
+                Popular Documentaries
+            </h1>
+            <div class="cardxx block2 m-5">
+                <div class="cardx1" id="Documentaries">
+
+
+                </div>
+            </div>
+
+            <h1 class="text-white menu-section-heading ml-5 mt-5 pp iDetRV" style="color:black;font-size:40px;font-weight:500">
+                Watch later...
+            </h1>
+            <div class="cardxx block2 m-5">
+                <div class="cardx1" id="WatchLater">
+
+
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-between">
+                <h1 class="text-white menu-section-heading ml-5 mt-5 pp iDetRV" style="color:black;font-size:40px;font-weight:500">
+                    Watch History...
+                </h1>
+                <p class="text-white menu-section-heading mr-5 mt-5 pp iDetRV" id="clearWatchHistory" style="color:black;font-size:40px;font-weight:500;cursor:pointer;">clear</p>
+            </div>
+
+            <div class="cardxx block2 m-5">
+                <div class="cardx1" id="WatchHistory">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
